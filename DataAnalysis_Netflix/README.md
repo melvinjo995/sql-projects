@@ -1,25 +1,27 @@
-# Netflix Data Exploration with PostgreSQL
+# 🎬 Netflix Data Exploration with PostgreSQL
 
-## Overview
+## 📌 Overview
 This project involves analyzing a **Netflix dataset** using **PostgreSQL Workbench**. The dataset, originally in `.csv` format, was imported into PostgreSQL after creating a structured database and table. The goal of this project was to explore the data and solve **15 key business problems** using **SQL queries, Common Table Expressions (CTEs), functions, and window functions**.
-
-## Project Workflow
-### 1. **Database & Table Creation**
-- A new **PostgreSQL database** named `netflix_db` was created.
-- A table named `netflix` was structured with appropriate **columns and data types** to match the dataset.
-
-### 2. **Data Import**
-- The `.csv` dataset was imported into `netflix`
-- Ensured proper **data integrity** and handled missing values where applicable.
-
-### 3. **Data Analysis**
-- Used SQL queries to extract insights and solve **15 business-related problems**.
 
 ---
 
-## Key Business Questions & Solutions
+## 📂 Project Workflow
+### 🏗️ 1. **Database & Table Creation**
+- A new **PostgreSQL database** named `netflix_db` was created. ✅
+- A table named `netflix` was structured with appropriate **columns and data types** to match the dataset.
 
-### **Creating table format for importing data**
+### 📥 2. **Data Import**
+- The `.csv` dataset was imported into `netflix` 📊
+- Ensured proper **data integrity** and handled missing values where applicable.
+
+### 🔍 3. **Data Analysis**
+- Used SQL queries to extract insights and solve **15 business-related problems**. 📊
+
+---
+
+## 🔑 Key Business Questions & Solutions
+
+### 📌 **Creating table format for importing data**
 **Query:**
 ```sql
 DROP TABLE IF EXISTS netflix;
