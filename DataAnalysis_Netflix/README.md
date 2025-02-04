@@ -41,7 +41,7 @@ CREATE TABLE netflix
 );
 ```
 
-### **1. COUNT the number of Movies and Tv Shows**
+### **1. Count the number of Movies and Tv Shows**
 **Query:**
 ```sql
 SELECT show_type, COUNT(show_type) AS number_of_items
@@ -65,14 +65,14 @@ SELECT show_type, rating
 FROM t1
 WHERE ranking = 1;
 ```
-### **3. List all movies releASed in a specific year (eg. 2020)**
+### **3. List all movies released in a specific year (eg. 2020)**
 **Query:**
 ```sql
 SELECT show_type, title
 FROM netflix
 WHERE show_type = 'Movie' AND release_year = 2020;
 ```
-### **4. Find the top 5 COUNTries WITH the most content on netflix**
+### **4. Find the top 5 countries with the most content on netflix**
 **Query:**
 ```sql
 SELECT 
