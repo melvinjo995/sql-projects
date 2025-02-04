@@ -21,8 +21,7 @@ This project involves analyzing a **Netflix dataset** using **PostgreSQL Workben
 
 ## 🔑 Key Business Questions & Solutions
 
-### 📌 **Creating table format for importing data**
-**Query:**
+### 📌 **Schema**
 ```sql
 DROP TABLE IF EXISTS netflix;
 CREATE TABLE netflix
